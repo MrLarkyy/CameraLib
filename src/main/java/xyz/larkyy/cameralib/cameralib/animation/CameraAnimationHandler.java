@@ -1,8 +1,6 @@
 package xyz.larkyy.cameralib.cameralib.animation;
 
 import org.bukkit.util.Vector;
-import xyz.larkyy.animationlib.animationlib.Animation;
-import xyz.larkyy.cameralib.cameralib.animation.CameraAnimation;
 
 import java.util.HashMap;
 import java.util.Map;
