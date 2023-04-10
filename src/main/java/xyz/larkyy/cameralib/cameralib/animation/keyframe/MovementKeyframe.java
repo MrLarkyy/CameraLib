@@ -1,7 +1,7 @@
 package xyz.larkyy.cameralib.cameralib.animation.keyframe;
 
 import org.bukkit.util.Vector;
-import xyz.larkyy.timelinelib.timelinelib.interpolation.InterpolatedKeyframe;
+import xyz.larkyy.animationlib.animationlib.timeline.InterpolatedKeyframe;
 
 public class MovementKeyframe extends InterpolatedKeyframe implements CameraKeyframe {
 

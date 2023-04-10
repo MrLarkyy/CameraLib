@@ -1,10 +1,10 @@
 package xyz.larkyy.cameralib.cameralib.animation;
 
 import org.bukkit.util.Vector;
+import xyz.larkyy.animationlib.animationlib.timeline.InterpolatedTimeline;
+import xyz.larkyy.animationlib.animationlib.timeline.Timeline;
 import xyz.larkyy.cameralib.cameralib.animation.keyframe.MovementKeyframe;
 import xyz.larkyy.cameralib.cameralib.animation.keyframe.RotationKeyframe;
-import xyz.larkyy.timelinelib.timelinelib.Timeline;
-import xyz.larkyy.timelinelib.timelinelib.interpolation.InterpolatedTimeline;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -12,7 +12,7 @@ import java.util.Map;
 public class CameraTimeline {
 
 
-    private final Map<String,Timeline<?>> map = new HashMap<>();
+    private final Map<String, Timeline<?>> map = new HashMap<>();
 
     public CameraTimeline() {
         map.put("movement",new InterpolatedTimeline<MovementKeyframe>());

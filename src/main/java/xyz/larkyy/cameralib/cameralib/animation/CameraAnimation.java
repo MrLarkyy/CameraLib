@@ -1,11 +1,11 @@
 package xyz.larkyy.cameralib.cameralib.animation;
 
 import org.bukkit.util.Vector;
-import xyz.larkyy.animationlib.animationlib.Animation;
-import xyz.larkyy.animationlib.animationlib.LoopMode;
+import xyz.larkyy.animationlib.animationlib.animation.Animation;
+import xyz.larkyy.animationlib.animationlib.animation.LoopMode;
+import xyz.larkyy.animationlib.animationlib.timeline.InterpolatedTimeline;
 import xyz.larkyy.cameralib.cameralib.animation.keyframe.MovementKeyframe;
 import xyz.larkyy.cameralib.cameralib.animation.keyframe.RotationKeyframe;
-import xyz.larkyy.timelinelib.timelinelib.interpolation.InterpolatedTimeline;
 
 public class CameraAnimation extends Animation {
     public CameraAnimation(LoopMode loopMode, double length, double speed, CameraTimeline cameraTimeline) {
